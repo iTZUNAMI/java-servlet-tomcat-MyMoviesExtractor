@@ -1,0 +1,82 @@
+/* CONTENUTI : WWW */
+div.titoloboxred {color:#a00000; padding-bottom:1px; font-weight:bold; border-bottom:1px solid #a00000;}
+div.titolo {color:#a00000; font-weight:bold; background-color: #FFFFFF; padding-left: 3px;}
+div.testorosso {color:#a00000; font-weight:bold;}
+div.utente {color:#a00000;}
+div.titoloboxgrey {color:#969494; padding-bottom:5px; font-weight:bold; border-bottom:1px solid #d9dbce; vertical-align: bottom;	line-height: 9px;}
+div.titolograndenews {font-size:20px;font-weight:bold;color:#808080;padding-bottom:4px;}
+div.titologrande {font-size:14px; font-weight:bold;	color:#666666; padding-top: 4px; padding-right: 4px; padding-bottom: 8px;}
+div.titolo {padding-top:4px; padding-bottom:2px;	font-weight:bold; font-size:12px;}
+div.titolosmall {padding-top:6px; font-weight:bold; font-size:10px;}
+div.titolocell {padding-bottom:6px; font-weight:bold; font-size:12px; color:#666666;}
+div.titoloimgtxtnews {padding-bottom:10px; font-style:italic; font-size:12px;}
+div.titoloimgtxt {padding-bottom:10px; font-style:italic; font-size:12px;}
+div.titoloimgtxtsmall {font-style:italic; font-size:10px;}
+div.newsbody {font-size:12px; color:#000000;}
+div.newsbodysmall {font-size:11px; color:#000000;}
+div.newsbodysingle {font-size:12px;	color:#000000; text-align:justify; padding-right:4px;}
+table.tabaltrenews {}
+table.tabaltrenews tr td {vertical-align:top; padding-bottom:4px;}
+table.tabaltrenews tr td.imgtxtcell img {float:left;	border:1px solid black;	margin-right:2px;}
+div.classifica {width:250px; padding-bottom:6px; font-weight:bold;}
+img.imgtxt {float:left;	margin-right:4px;}
+img.miniature {float:left; margin-right:1px;}
+img.miniaturemini {float:left; margin-right:4px; margin-left:4px; margin-bottom:4px;}
+img.imgtxtright {float:right; margin-right:6px; border:1px solid #000000;}
+table#stripimg tr td {padding:2px;}
+table#stripimg tr td img{border:1px solid black;}
+table#chiusura {width:100%;}
+table#chiusura td {}
+table#chiusura td#chiudidx {width:120px;}
+/*filmup modif   #path {font-weight:bold;}*/
+#path a {color:#000000 ;font-weight:normal; text-decoration:none}
+#path a:hover {color:#000000; font-weight:normal; text-decoration:underline}
+
+#topnewsup {font: 11px Verdana, arial, sans-serif;}
+#topnewsup a {color:#a00000 ;text-decoration:none;}
+#topnewsup a:hover {color:#a00000;text-decoration:underline}
+
+#topcellsbig {font-size:11px;	margin-top: 5px;	margin-bottom: 15px;}
+
+.breakingnews {
+	color: #A00000;
+	/*background: #F3F0EA;*/
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 125%;
+	text-align: left; 
+	padding: 3px 5px;
+	border-style: solid;
+	border-color: #A00000;
+	border-width: 0 0 1px 4px;
+}
+.breakingnews a {
+	color: #A00000;
+}
+
+.aforisma {
+	color: #585651;
+	background: #DDD5C8;
+	padding: 5px;
+}
+.aforisma a {
+	color: #454545;
+	background: transparent;
+	margin: -5px;
+	padding: 5px;
+	display: block;
+}
+.aforisma a:hover {
+	color: #333333;
+	background:#F3F0EA;
+}
+.testoaforisma {
+	text-align: left;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.firmaaforisma {
+	margin: 0;
+	text-align: right;
+}
+

@@ -1,0 +1,139 @@
+#tablist li a.search
+{
+	font-weight: normal;
+	font-size: 11px;
+	/*float: right;*/
+	background-image: url(search_bg.png);
+	background-repeat: no-repeat;
+	color:#993300;
+}
+
+
+
+#mainmenu {float:left;}
+#mainmenu {
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0px;
+}
+
+
+.clearboth
+{
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+#tablist
+{
+	width: 980px;
+	height: 17px;
+	padding: 9px 0;
+	margin: 0px 0px 2px 0px;
+	background-image: url(sfondo_menu2.png);
+	background-repeat: no-repeat;
+}
+
+#tablist ul {float:right;}
+
+#tablist li
+{
+	list-style: none;
+	display: inline;
+	margin: 0;
+}
+
+#tablist li a
+{
+	text-decoration: none;
+	padding: 9px 7px 12px 7px;
+	margin: 0 0 0 0;
+	/*background-image: url(/img3/submenu2-on_bg.png);*/
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+}
+
+#tablist li a:link, #tablist li a:visited
+{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#tablist li a.current
+{
+	background-image: url(submenu2-on_bg.png);
+	background-repeat: repeat-x;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+#tabcontentcontainer
+{
+	width: 972px;
+	height: 14px;
+	padding: 4px;
+	margin: 0px 0px 0px 0px;
+	background-image: url(sfondo_submenu2.png);
+	background-repeat: no-repeat;
+}
+
+#tabcontentcontainer li
+{
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	list-style: none;
+	display: inline;
+	margin: 0px;
+	padding: 0;
+}
+
+#tabcontentcontainer li a{
+	text-decoration: none;
+	margin: 10px 0px 0px 12px;
+	background-image: url(list_submenu.png);
+	background-repeat: no-repeat;
+	background-position: 2px;
+	font-style: italic;
+	letter-spacing: -0,7em;
+	padding-left: 15px;
+}
+
+#tabcontentcontainer ul li a:hover {
+	text-decoration: underline;
+	color: #fff;
+	background-color: transparent;
+}
+
+#tabcontentcontainer li a:link, #tabcontentcontainer li a:visited
+{
+	color: #fff;
+	font-weight: bold;
+}
+
+.tabcontent{
+	display: none;
+	margin-top: -10px;
+}
+
+.menu_cerca{
+	
+	background-image: url(search_bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 40px;
+	padding-right: 4px;
+	color: White;
+	padding-bottom: 7px;
+	padding-top: 10px;
+}
+

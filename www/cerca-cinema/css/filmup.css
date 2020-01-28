@@ -1,0 +1,541 @@
+.header-trailers {
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.boxRisorseFilm {
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	CLEAR: both;
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: normal;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	BORDER-BOTTOM: 1px dashed;
+	BORDER-TOP: 1px dashed;
+	BORDER-LEFT-COLOR: #dedddd;
+	BORDER-BOTTOM-COLOR: #808080;
+	COLOR: #000000;
+	BORDER-TOP-COLOR: #808080;
+	BORDER-RIGHT-COLOR: #dedddd;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+.boxInviaOpinioni{
+	border:dashed 1px #808080;
+	background-color:#e7e7e7;
+	color:#000000;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	CLEAR: both;
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: normal;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	COLOR: #000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+
+.boxTitoloPath {
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BORDER-BOTTOM: 1px solid; BORDER-LEFT-COLOR: #ca0003; BORDER-BOTTOM-COLOR: #ca0003; COLOR: #ca0003; BORDER-TOP-COLOR: #ca0003; BORDER-RIGHT-COLOR: #ca0003
+}
+
+
+/* ####### FILMUP CSS - START */
+
+.tuiticker {border: 0px solid #ffffff;
+width: 395px;
+overflow: hidden;
+line-height: 1.4em;}
+.tuiticker ul  { margin:0;padding:0}
+.tuiticker li { margin:0;padding:0}
+
+
+.stilemenu {
+	FONT-WEIGHT: bold; COLOR: #ca0003;
+}
+A.menu:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu:hover {
+	BACKGROUND: none; TEXT-DECORATION: underline
+}
+A.menu IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+
+A.news:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.news:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.news:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.news:hover {
+	BACKGROUND: none; TEXT-DECORATION: underline
+}
+A.news IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+
+.boxTitolo {
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; BORDER-LEFT-COLOR: #ca0003; BORDER-BOTTOM-COLOR: #ca0003; COLOR: #ca0003; BORDER-TOP-COLOR: #ca0003; BORDER-RIGHT-COLOR: #ca0003; CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; BORDER-BOTTOM: 1px solid
+}
+
+
+
+
+
+.boxPieLine {
+	BORDER-LEFT-COLOR: #ca0003; BORDER-BOTTOM-COLOR: #ca0003; BORDER-TOP-COLOR: #ca0003; BORDER-RIGHT-COLOR: #ca0003
+}
+.continua {
+	COLOR: #ca0003
+}
+.user {
+	COLOR: #ca0003
+}
+.didascalia {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px; TEXT-ALIGN: center; BORDER-LEFT-COLOR: #333333; BORDER-BOTTOM-COLOR: #333333; BORDER-TOP-COLOR: #333333; BACKGROUND-COLOR: #efefef; BORDER-RIGHT-COLOR: #333333
+}
+.freccia {
+	MARGIN: 0px 0px 1px; BACKGROUND-COLOR: #ca0003
+}
+.campo {
+	BORDER-LEFT-COLOR: #ff0000; BORDER-BOTTOM-COLOR: #ff0000; BORDER-TOP-COLOR: #ff0000; BORDER-RIGHT-COLOR: #ff0000
+}
+#sxFilmUpSub {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px
+}
+#sxFilmUpSub2 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px
+}
+#INTsxFilmUpSub {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px
+}
+#INTsxFilmUpSub2 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px
+}
+A.filmup:link {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.filmup:visited {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.filmup:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.filmup:hover {
+	background-color: transparent; COLOR: #333333; TEXT-DECORATION: none
+	/*BACKGROUND: #f3f0ea; COLOR: #ff0000; TEXT-DECORATION: underline*/
+}
+A.filmup IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; background-color: transparent; TEXT-DECORATION: none
+}
+A.linktelecomandologo {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: none
+}
+A.linktelecomandologo:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: none
+}
+A.linktelecomandologo IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+DIV.titolocategoria {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #a00000
+}
+TABLE.arial02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TABLE.arial01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TABLE.tahoma02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+TABLE.tahoma01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+TR.arial02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TR.arial01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TR.tahoma02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+TR.tahoma01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+TD.arial02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD.arial01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD.tahoma02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+TD.tahoma01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+DIV.arial02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+DIV.arial01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+DIV.tahoma02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+DIV.tahoma01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.arial02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.arial01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tahoma02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.tahoma01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.tahoma00 {
+	FONT-SIZE: 9px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.verdana02 {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.verdana01 {
+	FONT-SIZE: 9px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#test {
+	BACKGROUND-COLOR: #fedb89
+}
+#test1 {
+	BACKGROUND-COLOR: #fedb89
+}
+#INTcontainer {
+	BORDER-RIGHT: white 1px solid; BORDER-TOP: white 1px solid; MARGIN: auto; BORDER-LEFT: white 1px solid; WIDTH: 872px; BORDER-BOTTOM: white 1px solid; POSITION: relative
+}
+.INTcornicebody {
+	WIDTH: 616px
+}
+DIV.template {
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+
+
+
+/* ####### CONTENUTI CSS - START */
+
+
+
+
+#content-ricerca {
+	MARGIN-TOP: 6px; WIDTH: 100%
+}
+#content-main {
+	WIDTH: 100%; TEXT-ALIGN: left
+}
+.sfondoMain {
+	BACKGROUND: url(../../../fup/tmp/bgcontent_fup55.gif);
+	VERTICAL-ALIGN: top;
+	background-repeat: repeat-x;
+}
+.Main {
+	PADDING-RIGHT: 5px; PADDING-LEFT:5px; WIDTH: 512px; TEXT-ALIGN: left
+}
+#XXoverlayer {
+	MARGIN-TOP: -210px; Z-INDEX: 10001; LEFT: 50%; MARGIN-LEFT: -200px; OVERFLOW: visible; WIDTH: 1px; POSITION: absolute; TOP: 50%; HEIGHT: 1px
+}
+A {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+/*A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}*/
+A:hover {
+	background-color: transparent; COLOR: #333333; TEXT-DECORATION: none
+	/*BACKGROUND: #f3f0ea; COLOR: #333333*/
+}
+#path {
+	PADDING-BOTTOM: 10px
+}
+.layoutTableOLD {
+	CLEAR: both; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px
+}
+.layoutTable {
+	BACKGROUND: url(../../../fup/tmp/bgcontent_fup55.gif);
+	VERTICAL-ALIGN: top;
+	background-repeat: repeat-x;
+	CLEAR: both; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px
+}
+
+.layoutTableBG {
+	BACKGROUND: url(../../../fup/tmp/bgcontent_fup55.gif);
+	VERTICAL-ALIGN: top;
+	background-repeat: repeat-x;
+	CLEAR: both; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+
+.layoutTableDW {
+	BACKGROUND: url(../../../fup/tmp/bgcontent_fup56.gif);
+	background-repeat: repeat-x;
+	CLEAR: both;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 5px;
+	WIDTH: 100%;
+	PADDING-TOP: 5px;
+	background-position: bottom;
+}
+
+.layoutTD100 {
+	VERTICAL-ALIGN: top; WIDTH: 100%
+}
+.layoutTD75 {
+	VERTICAL-ALIGN: top; WIDTH: 75%
+}
+.layoutTD50 {
+	VERTICAL-ALIGN: top; WIDTH: 50%
+}
+.layoutTD25 {
+	VERTICAL-ALIGN: top; WIDTH: 25%
+}
+.layoutTD20 {
+	VERTICAL-ALIGN: top; WIDTH: 20%
+}
+.layoutTD10 {
+	VERTICAL-ALIGN: top; WIDTH: 10%
+}
+.layoutTD5 {
+	VERTICAL-ALIGN: top; WIDTH: 5%
+}
+.layoutImage250 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; WIDTH: 250px; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #efefef; TEXT-ALIGN: center
+}
+.layoutImage200 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; WIDTH: 200px; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #efefef; TEXT-ALIGN: center
+}
+.layoutImage120 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; WIDTH: 120px; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #efefef; TEXT-ALIGN: center
+}
+.layoutTD25image {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #efefef; TEXT-ALIGN: center
+}
+.spacer {
+	FONT-SIZE: 1px; LINE-HEIGHT: 5px; HEIGHT: 5px
+}
+#chiusura {
+	WIDTH: 100%
+}
+#chiudisx {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+#chiudidx {
+	PADDING-LEFT: 4px
+}
+.banner {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.boxData {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 10px; PADDING-BOTTOM: 5px; MARGIN: 5px 0px 0px; PADDING-TOP: 5px; TEXT-ALIGN: justify
+}
+.boxPieLine {
+	CLEAR: both; PADDING-RIGHT: 0px; BORDER-TOP: 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; TEXT-ALIGN: right
+}
+.boxPie {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; TEXT-ALIGN: right
+}
+.titolo {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 5px
+}
+.titoloBig {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 5px
+}
+.titoloSmall {
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 5px
+}
+.testoBig {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 5px
+}
+.testo {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 5px
+}
+.testoSmall {
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 2px
+}
+.data {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #666666; PADDING-TOP: 5px; FONT-STYLE: italic
+}
+IMG {
+	
+}
+IMG.big {
+	BORDER-RIGHT: #666666 0px solid; BORDER-TOP: #666666 0px solid; BORDER-LEFT: #666666 0px solid; BORDER-BOTTOM: #666666 0px solid
+}
+IMG.small {
+	BORDER-RIGHT: #666666 0px solid; BORDER-TOP: #666666 0px solid; BORDER-LEFT: #666666 0px solid; BORDER-BOTTOM: #666666 0px solid
+}
+IMG.left {
+	BORDER-RIGHT: #666666 0px solid; BORDER-TOP: #666666 0px solid; FLOAT: left; MARGIN: 5px; BORDER-LEFT: #666666 0px solid; BORDER-BOTTOM: #666666 0px solid
+}
+IMG.right {
+	BORDER-RIGHT: #666666 0px solid; BORDER-TOP: #666666 0px solid; FLOAT: right; MARGIN: 5px; BORDER-LEFT: #666666 0px solid; BORDER-BOTTOM: #666666 0px solid
+}
+.tratteggio {
+	LINE-HEIGHT: 5px; BORDER-BOTTOM: #666666 1px dashed
+}
+.invia {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; FONT-SIZE: 10px; FLOAT: right; PADDING-BOTTOM: 0px; WIDTH: 120px; COLOR: #666666; LINE-HEIGHT: 18px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+.modulo {
+	BORDER-RIGHT: #999999 1px inset; BORDER-TOP: #999999 1px inset; FONT-SIZE: 11px; BORDER-LEFT: #999999 1px inset; WIDTH: 100%; BORDER-BOTTOM: #999999 1px inset; FONT-FAMILY: Tahoma; HEIGHT: 14px; TEXT-ALIGN: left
+}
+FORM#searchform {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+
+
+
+/* ####### CONTENUTI-WWW CSS - START */
+
+DIV.titoloboxred {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 1px; COLOR: #a00000; BORDER-BOTTOM: #a00000 1px solid
+}
+DIV.titolo {
+	PADDING-LEFT: 3px; FONT-WEIGHT: bold; COLOR: #a00000; BACKGROUND-COLOR: #ffffff
+}
+DIV.testorosso {
+	FONT-WEIGHT: bold; COLOR: #a00000
+}
+DIV.utente {
+	COLOR: #a00000
+}
+DIV.titoloboxgrey {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: bottom; COLOR: #969494; LINE-HEIGHT: 9px; BORDER-BOTTOM: #d9dbce 1px solid
+}
+DIV.titolograndenews {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; PADDING-BOTTOM: 4px; COLOR: #808080
+}
+DIV.titologrande {
+	PADDING-RIGHT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 8px; COLOR: #666666; PADDING-TOP: 4px
+}
+DIV.titolo {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 4px
+}
+DIV.titolosmall {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-TOP: 6px
+}
+DIV.titolocell {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 6px; COLOR: #666666
+}
+DIV.titoloimgtxtnews {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 10px; FONT-STYLE: italic
+}
+DIV.titoloimgtxt {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 10px; FONT-STYLE: italic
+}
+DIV.titoloimgtxtsmall {
+	FONT-SIZE: 10px; FONT-STYLE: italic
+}
+DIV.newsbody {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+DIV.newsbodysmall {
+	FONT-SIZE: 11px; COLOR: #000000
+}
+DIV.newsbodysingle {
+	PADDING-RIGHT: 4px; FONT-SIZE: 12px; COLOR: #000000; TEXT-ALIGN: justify
+}
+TABLE.tabaltrenews {
+	
+}
+TABLE.tabaltrenews TR TD {
+	PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top
+}
+TABLE.tabaltrenews TR TD.imgtxtcell IMG {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FLOAT: left; BORDER-LEFT: black 1px solid; MARGIN-RIGHT: 2px; BORDER-BOTTOM: black 1px solid
+}
+DIV.classifica {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 6px; WIDTH: 250px
+}
+IMG.imgtxt {
+	FLOAT: left; MARGIN-RIGHT: 4px
+}
+IMG.miniature {
+	FLOAT: left; MARGIN-RIGHT: 1px
+}
+IMG.miniaturemini {
+	FLOAT: left; MARGIN-BOTTOM: 4px; MARGIN-LEFT: 4px; MARGIN-RIGHT: 4px
+}
+IMG.imgtxtright {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FLOAT: right; BORDER-LEFT: #000000 1px solid; MARGIN-RIGHT: 6px; BORDER-BOTTOM: #000000 1px solid
+}
+TABLE#stripimg TR TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+TABLE#stripimg TR TD IMG {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+TABLE#chiusura {
+	WIDTH: 100%
+}
+TABLE#chiusura TD {
+	
+}
+TABLE#chiusura TD#chiudidx {
+	WIDTH: 120px
+}
+#path A {
+	FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: none
+}
+#path A:hover {
+	FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: underline
+}
+.boxTitoloPath A {
+	FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: none
+}
+.boxTitoloPath A:hover {
+	FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: underline
+}
+#topnewsup {
+	FONT: 11px Verdana, arial, sans-serif
+}
+#topnewsup A {
+	COLOR: #a00000; TEXT-DECORATION: none
+}
+#topnewsup A:hover {
+	COLOR: #a00000; TEXT-DECORATION: underline
+}
+#topcellsbig {
+	MARGIN-TOP: 5px; FONT-SIZE: 11px; MARGIN-BOTTOM: 15px
+}
+.breakingnews {
+	BORDER-RIGHT: #a00000 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: #a00000 0px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; BORDER-LEFT: #a00000 4px solid; COLOR: #a00000; LINE-HEIGHT: 125%; PADDING-TOP: 3px; BORDER-BOTTOM: #a00000 1px solid; TEXT-ALIGN: left
+}
+.breakingnews A {
+	COLOR: #a00000
+}

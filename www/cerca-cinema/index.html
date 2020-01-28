@@ -1,0 +1,623 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>myMovies - Tecnologie e Applicazioni Web</title>
+
+
+	<!-- ### CSS CANALE ### -->
+	<link rel="stylesheet" type="text/css" href="css/contenuti-www.css" />
+	<link rel="stylesheet" type="text/css" href="css/filmup.css" />
+	
+</head>
+<body>
+
+
+
+<!-- HEADER LEO / START -->
+<link rel="stylesheet" href="img/_TEST_leo.css" type="text/css" media="screen" />
+<div id="Leonardo_Navigation">
+ <div id="Leonardo_Navigation-Wrapper">
+
+<!-- <a id="Leonardo_Navigation-Logo2" href="http://filmup.leonardo.it/" title="Visita FilmUP.com"><h1>FilmUP.com</h1></a> -->
+
+<div style="display:block; float:right; width:60px; height:40px;"><a href="http://www.facebook.com/filmup" target="_blank" title="Seguici su Facebook"><img src="img/social_facebook.png" alt="" width="20" height="40" border="0"></a>&nbsp;&nbsp;<a href="http://twitter.com/filmup" target="_blank" title="Seguici su Twitter"><img src="img/social_twitter.png" alt="" width="20" height="40" border="0"></a></div>
+
+  <ul>
+   <li><A class="menu" href="http://filmup.leonardo.it/contatti/index.php"><font class="stilemenu">C</font>ontatti</A></li>
+   <li class="separa"><A class="menu" href="http://filmup.leonardo.it/e-list/"><font class="stilemenu">N</font>ewsletter</A></li>
+   <li>&nbsp;&nbsp;&nbsp;<a href="#" class="menu" style="text-decoration: none;">Seguici su:</a></li>
+  </ul>
+  
+ </div>
+</div>
+<!-- HEADER LEO / END -->
+
+<!-- START // click background -->
+<div id="background-adv"></div>
+<div id="container">
+<!-- END // click background -->
+
+
+	<link rel="stylesheet" type="text/css" href="img/menu_fup3.css" />
+	<!--[if IE]>
+        <link rel="stylesheet" href="/img3/menu_fup3_IE.css" type="text/css" />
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="img/newhp.css" />	
+    <script type="text/javascript" src="img/jquery.js"></script>
+	<script type="text/javascript" src="img/list_news.js"></script>	
+	<script type="text/javascript" src="img/scroll_news.js"></script>
+	<script type="text/javascript" src="img/rollover_ms.js"></script>
+	<script type="text/javascript" src="img/menu_fup3.js"></script>
+
+<!-- !!!!!!!! WIDESPOT / START !!!!!!!! -->
+<!-- !!!!!!!! WIDESPOT / END !!!!!!!! -->
+
+<br />
+
+<TABLE height="98" cellSpacing=0 cellPadding=0 width="980" align="center" border=0>
+<TR>
+<td width="252" height="98" align="left" valign="bottom"><a class="filmup" href="http://filmup.leonardo.it/"><img src="img/logo_filmup_com.png" width="209" height="90" alt="" border="0" /></a></td>
+<td width="728" valign="middle" align="right" style="padding-bottom: 4px;">
+
+</td>
+</TR></TABLE>
+
+<TABLE cellSpacing=0 cellPadding=0 width="980" align="center" border=0>
+<TR>
+<td height="22" width="3" align="left" valign="top"><img src="img/scroll_news_sx.png" width="3" height="22" alt="" border="0" /></td>
+<td align="left" valign="middle" style="background-image: url(img/scroll_news_bg.png); background-repeat: repeat-x;" height="22" width="30">&nbsp;&nbsp;<b>NEWS:</b>&nbsp;</td>
+<td align="left" valign="middle" style="background-image: url(img/scroll_news_bg.png); background-repeat: repeat-x;" height="22" width="944">
+
+<script type="text/javascript">
+//new pausescroller(name_of_message_array, CSS_ID, CSS_classname, pause_in_miliseconds)
+new pausescroller(pausecontent2, "pscroller2", "someclass", 2000)
+</script>
+
+</td>
+<td height="22" width="3" align="right" valign="top"><img src="img/scroll_news_dx.png" width="3" height="22" alt="" border="0" /></td>
+</TR></TABLE>
+
+<TABLE cellSpacing=0 cellPadding=0 width="980" align="center" border=0>
+<TR>
+<td align="left" width="980">
+
+<div style="padding-bottom: 5px; padding-top: 4px;" id="mainmenu" onmouseover="menuOnIn()" onmouseout="menuOnOut()">
+
+<FORM METHOD=GET ACTION="http://filmup.leonardo.it/cgi-bin/search.cgi">
+	<input type="hidden" name="ps" value="10">
+	<input type="hidden" name="fmt" value="long">
+	<input type="hidden" name="sy" value="0">
+
+<ul id="tablist">
+<li>&nbsp;</li>
+<li><a  class="" href="http://filmup.leonardo.it/">HOME</a></li>
+<li><a  class="" href="http://filmup.leonardo.it/schede/" onMouseover="expandcontent('sc1', this)">FILM</a></li>
+<li><a  class="" href="http://filmup.leonardo.it/dvd/dvd_sett.htm" onMouseover="expandcontent('sc2', this)">HOMEVIDEO</a></li>
+
+
+<li>&nbsp;</li>
+
+<li class="menu_cerca">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CERCA FILM - REGISTA - ATTORI &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="q" size="40" style="width: 120px; font-size: 12px; border: 0px solid;" />&nbsp;<input type="image" src="img/search_go.png" align="top" width="19" height="16" hspace="0" vspace="0" border="0"></li>
+
+</ul>
+</form>
+
+<div id="tabcontentcontainer">
+
+<div id="sc1" style="margin-left: 5px;" class="tabcontent">
+<ul>
+<li><a href="http://filmup.leonardo.it/schede/" id="sc1-7">SCHEDE FILM</a></li>
+<li><a href="index.html" id="sc1-1">CERCA CINEMA</a></li>
+<li><a href="http://filmup.leonardo.it/cinema_ant.htm" id="sc1-2">PROSSIMAMENTE</a></li>
+<li><a href="http://filmup.leonardo.it/speciale/anteprime/" id="sc1-3">ANTEPRIME</a></li>
+<li><a href="http://filmup.leonardo.it/cinema_prime.htm" id="sc1-4">PRIME VISIONI</a></li>
+</ul>
+</div>
+
+<div id="sc2" style="margin-left: 50px;" class="tabcontent">
+<ul>
+<li><a href="http://filmup.leonardo.it/dvd/dvd_sett.htm" id="sc2-1">QUESTO MESE</a></li>
+<li><a href="http://filmup.leonardo.it/dvd/dvd_pross.htm" id="sc2-2">PROSSIMAMENTE</a></li>
+
+<li><a target="_blank" rel="nofollow" href="http://www.internetbookshop.it/dvd/hme/hmepge.asp?shop=851" id="sc2-4">ACQUISTA</a></li>
+</ul>
+</div>
+
+
+
+</div>
+</div>
+</td>
+</TR></TABLE>
+
+
+
+<TABLE cellSpacing=0 cellPadding=0 width="980" align="center" border=0>
+<TR>
+<td width="670" align="left" valign="top">
+
+<div class="boxTitoloTMP_fup3"></div>
+<div class="boxContent_fup3">
+
+<!-- NEW HEADER / START -->
+<!-- NEW HEADER / START -->
+
+
+
+
+<!-- ### CONTENT ### filmup -->
+
+ <!-- PATH -->
+ <div class="boxTitoloPath"><a href="http://filmup.leonardo.it/">FilmUP.com</a> &gt; <a href="index.html"><b>Cerca Cinema</b></a> &gt; Film al cinema  e provincia </div>
+ <!-- PATH -->
+
+<!-- contenuto FilmUP.com start -->
+
+
+<!-- TRAILERS FILM MENU / START -->
+<table width=100% cellpadding=1 cellspacing=0 border=0>
+<tr valign=top>
+
+<td width="100%" align="left" nowrap>
+<table width=100% cellpadding=2 cellspacing=0 border=0 class="tahoma01">
+<tr valign=top>
+<td width="100%" align="right" nowrap bgcolor="#FFFFFF"><b><a class="filmup" href="index-2.html">HomePage</a></b> | <b><a class="filmup" href="segnala.html">Segnalazioni</a></b><!--  | <b><a class="filmup" href="#">Ricerca avanzata</a></b> | <b><a class="filmup" href="#">Film in programmazione</a></b> | <b><a class="filmup" href="#">Personalizza</a></b> --></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<img src="../img/null.gif" width=1 height=10 border=0><br><!-- TRAILERS FILM MENU / END -->
+
+<!-- qui -->
+
+
+
+<br />
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tr>
+<td width="100%" valign="top"><font size="3"><b>I film oggi al cinema nella tua città.</b><br />
+<img src="../img/i_programmazione.jpg" width="150" height="100" hspace="15" alt="Cinema" class="right">
+<font size="2">Gli orari dei film in programmazione di tutte le sale italiane. Scegli la città che preferisci, trova il film che stai cercando nel cinema che preferisci, consulta la scheda del film, scopri tutti gli orari di programmazione.<br>
+Orari, trame e schede film, trailer, recensione, immagini, locandina.<br><br>
+
+<br clear="all" /><br />
+</td> 
+</tr>
+</table>
+
+<br clear="all" />
+
+<!--inizio menu-->
+<div class="boxTitolo">Cerca CINEMA - I film oggi al cinema nella tua città</div>
+<table class="tahoma01" bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="2">
+<tr align="left" valign="top">
+<td colspan="1"><img src="../img/null.gif" width=1 height=1 border=0></td>
+</tr><tr>
+<FORM METHOD="GET" ACTION="http://filmup.leonardo.it/cerca-cinema/index.php" NAME="MainForm">
+<input type="hidden" name="conf" value="1">
+<input type="hidden" name="data" value="oggi">
+<td width="100%" align="center" bgcolor="#F0F0F0">
+&nbsp;Città:&nbsp;&nbsp;&nbsp;<select name="citta" size="1" style="background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; border: 1px; font-size: 11px; width: 385px; height: 20px; margin: 0px 0px 0px 0px;">
+		<option value="-1" selected>scegli la citta'</option>
+		<option value="22543" >AGRIGENTO</option>
+<option value="20703" >ALESSANDRIA</option>
+<option value="20320" >ANCONA</option>
+<option value="21914" >ANDRIA</option>
+<option value="23653" >AOSTA</option>
+<option value="23273" >AREZZO</option>
+<option value="20374" >ASCOLI PICENO</option>
+<option value="20895" >ASTI</option>
+<option value="17057" >AVELLINO</option>
+<option value="21915" >BARI</option>
+<option value="21916" >BARLETTA</option>
+<option value="23730" >BELLUNO</option>
+<option value="17176" >BENEVENTO</option>
+<option value="18797" >BERGAMO</option>
+<option value="21014" >BIELLA</option>
+<option value="17606" >BOLOGNA</option>
+<option value="22940" >BOLZANO</option>
+<option value="19045" >BRESCIA</option>
+<option value="21958" >BRINDISI</option>
+<option value="22175" >CAGLIARI</option>
+<option value="22589" >CALTANISSETTA</option>
+<option value="20570" >CAMPOBASSO</option>
+<option value="22178" >CARBONIA</option>
+<option value="23440" >CARRARA</option>
+<option value="17269" >CASERTA</option>
+<option value="22622" >CATANIA</option>
+<option value="16808" >CATANZARO</option>
+<option value="17665" >CESENA</option>
+<option value="16333" >CHIETI</option>
+<option value="19275" >COMO</option>
+<option value="16685" >COSENZA</option>
+<option value="19421" >CREMONA</option>
+<option value="16885" >CROTONE</option>
+<option value="21171" >CUNEO</option>
+<option value="22674" >ENNA</option>
+<option value="20386" >FERMO</option>
+<option value="17698" >FERRARA</option>
+<option value="23325" >FIRENZE</option>
+<option value="22001" >FOGGIA</option>
+<option value="17669" >FORLI'</option>
+<option value="18198" >FROSINONE</option>
+<option value="18562" >GENOVA</option>
+<option value="17948" >GORIZIA</option>
+<option value="23365" >GROSSETO</option>
+<option value="22201" >IGLESIAS</option>
+<option value="18635" >IMPERIA</option>
+<option value="20671" >ISERNIA</option>
+<option value="16253" >L'AQUILA</option>
+<option value="18686" >LA SPEZIA</option>
+<option value="22312" >LANUSEI</option>
+<option value="18262" >LATINA</option>
+<option value="22077" >LECCE</option>
+<option value="19542" >LECCO</option>
+<option value="23391" >LIVORNO</option>
+<option value="19621" >LODI</option>
+<option value="23419" >LUCCA</option>
+<option value="20463" >MACERATA</option>
+<option value="19869" >MANTOVA</option>
+<option value="23447" >MASSA</option>
+<option value="16523" >MATERA</option>
+<option value="22734" >MESSINA</option>
+<option value="19758" >MILANO</option>
+<option value="17739" >MODENA</option>
+<option value="19760" >MONZA</option>
+<option value="17401" >NAPOLI</option>
+<option value="21401" >NOVARA</option>
+<option value="22327" >NUORO</option>
+<option value="22505" >OLBIA</option>
+<option value="22414" >ORISTANO</option>
+<option value="23853" >PADOVA</option>
+<option value="22847" >PALERMO</option>
+<option value="17838" >PARMA</option>
+<option value="20019" >PAVIA</option>
+<option value="23597" >PERUGIA</option>
+<option value="20541" >PESARO</option>
+<option value="16444" >PESCARA</option>
+<option value="17795" >PIACENZA</option>
+<option value="23480" >PISA</option>
+<option value="23515" >PISTOIA</option>
+<option value="17998" >PORDENONE</option>
+<option value="16604" >POTENZA</option>
+<option value="23498" >PRATO</option>
+<option value="22884" >RAGUSA</option>
+<option value="17872" >RAVENNA</option>
+<option value="16965" >REGGIO CALABRIA</option>
+<option value="17908" >REGGIO EMILIA</option>
+<option value="18343" >RIETI</option>
+<option value="17935" >RIMINI</option>
+<option value="18453" >ROMA</option>
+<option value="23939" >ROVIGO</option>
+<option value="17559" >SALERNO</option>
+<option value="22232" >SANLURI</option>
+<option value="22523" >SASSARI</option>
+<option value="18759" >SAVONA</option>
+<option value="23554" >SIENA</option>
+<option value="22906" >SIRACUSA</option>
+<option value="20160" >SONDRIO</option>
+<option value="22165" >TARANTO</option>
+<option value="22531" >TEMPIO PAUSANIA</option>
+<option value="16504" >TERAMO</option>
+<option value="23650" >TERNI</option>
+<option value="21703" >TORINO</option>
+<option value="22369" >TORTOLI'</option>
+<option value="21954" >TRANI</option>
+<option value="22930" >TRAPANI</option>
+<option value="23250" >TRENTO</option>
+<option value="24035" >TREVISO</option>
+<option value="18023" >TRIESTE</option>
+<option value="18153" >UDINE</option>
+<option value="20564" >URBINO</option>
+<option value="20311" >VARESE</option>
+<option value="24086" >VENEZIA</option>
+<option value="21818" >VERBANIA</option>
+<option value="21906" >VERCELLI</option>
+<option value="24299" >VERONA</option>
+<option value="17046" >VIBO VALENTIA</option>
+<option value="24202" >VICENZA</option>
+<option value="22265" >VILLACIDRO</option>
+<option value="18536" >VITERBO</option>
+
+</select>&nbsp;&nbsp;<input type="image" src="../srv/img/trova.gif" align="absmiddle">
+</td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="1"><img src="../img/null.gif" width=1 height=1 border=0></td>
+</tr>
+</form>
+</table>
+<div class="boxTitolo"></div>
+<!--fine menu-->
+
+<br />
+
+<div align="center"><img src="img/cartina_beta.gif" id="cartina" border="0" name="cartina" width="450" height="508" alt="" usemap="#cartina" /></div><map name="cartina">
+<area id="VDA" shape="poly" coords="51,84,44,88,30,88,29,94,37,100,45,100,57,98,62,96,61,86" alt="Valle d'Aosta" href="indexc3b9.html?reg=VDA" />
+<area id="PIE" shape="poly" coords="80,63,75,66,72,76,66,83,66,96,64,100,42,105,28,122,32,130,36,133,36,140,32,145,36,157,45,163,52,160,59,162,68,159,69,150,87,143,89,144,93,143,94,140,102,141,91,126,81,121,81,113,87,108,89,104,86,100,83,91,87,79,80,65" alt="Piemonte" href="index806b.html?reg=PIE" />
+<area id="LIG" shape="poly" coords="49,174,49,182,56,182,59,178,69,174,77,163,87,153,84,153,99,154,108,157,122,166,130,168,124,158,114,156,112,146,96,146,92,148,83,149,77,152,72,152,70,161,68,164,60,167,56,172,54,175" alt="Liguria" href="index8c44.html?reg=LIG" />
+<area id="LOM" shape="poly" coords="90,82,97,86,100,82,108,65,111,63,116,69,133,64,135,57,145,52,147,58,145,73,145,81,148,86,154,84,150,92,151,105,163,114,171,117,155,118,141,121,136,123,130,117,124,117,122,119,114,118,108,119,106,134,105,137,100,132,96,124,86,119,84,116,92,111,92,101,88,95,88,85" alt="Lombardia" href="index61a6.html?reg=LOM" />
+<area id="TAA" shape="poly" coords="144,37,144,46,150,52,149,68,149,79,156,79,160,85,165,86,166,79,185,65,185,47,190,42,197,40,201,40,200,30,165,29,166,37,162,43,153,41,148,36" alt="Trentino Alto Adige" href="indexa23d.html?reg=TAA" />
+<area id="VEN" shape="poly" coords="156,90,166,89,170,85,171,79,191,66,189,49,198,44,212,44,216,44,205,54,203,69,208,81,218,84,220,80,223,84,207,96,202,103,206,115,206,126,198,118,189,117,180,120,176,117,166,111,156,105,154,95" alt="Veneto" href="index1fb9.php?reg=VEN" />
+<area id="FVG" shape="poly" coords="221,43,216,52,208,57,207,68,213,78,216,75,224,75,230,82,234,80,242,80,247,88,253,88,242,74,240,66,234,62,232,53,244,51,240,45,233,50" alt="Friuli Venezia Giulia" href="index0f48.html?reg=FVG" />
+<area id="EMR" shape="poly" coords="111,123,110,141,116,145,117,151,124,152,125,147,132,147,136,151,141,150,147,152,154,157,172,158,175,152,183,153,188,162,187,165,195,170,198,171,201,166,211,165,218,164,206,148,200,132,199,124,192,121,182,124,174,124,158,122,138,127,130,124,126,121,121,125,115,122" alt="Emilia Romagna" href="indexfffe.html?reg=EMR" />
+<area id="TOS" shape="poly" coords="127,153,134,164,133,170,140,179,149,193,152,208,158,211,160,215,168,223,172,226,172,231,178,235,189,226,191,224,190,219,192,215,193,210,191,200,193,198,197,196,196,187,201,181,199,174,194,174,182,167,182,160,177,156,175,161,158,162,151,161,142,154,138,157,136,157,129,152" alt="Toscana" href="index173a.html?reg=TOS" />
+<area id="MAR" shape="poly" coords="258,205,254,193,246,182,235,174,220,166,214,171,209,169,204,170,202,177,204,180,215,180,226,188,228,198,229,203,240,213,246,214,256,207" alt="Marche" href="index3f40.php?reg=MAR" />
+<area id="UMB" shape="poly" coords="203,185,198,191,202,192,200,200,196,202,197,216,206,220,210,226,217,231,225,228,228,226,234,221,237,215,228,209,222,201,223,190,215,185,207,183,205,184" alt="Umbria" href="index0759.php?reg=UMB" />
+<area id="LAZ" shape="poly" coords="192,219,195,223,194,228,183,238,199,253,224,275,237,282,241,281,246,281,251,284,257,284,263,277,264,271,264,263,258,260,248,260,240,255,239,248,245,244,242,242,238,239,238,230,243,225,245,224,244,218,240,220,238,226,231,230,227,230,226,234,214,234,208,232,202,222,194,219" alt="Lazio" href="index58f6.html?reg=LAZ" />
+<area id="ABR" shape="poly" coords="258,210,250,216,249,225,246,230,242,231,242,237,247,242,249,244,247,249,245,252,249,254,256,255,264,256,265,259,268,256,274,255,279,254,283,255,286,252,288,250,290,245,288,242,280,236,264,225,260,216,259,212" alt="Abruzzo" href="index212f.php?reg=ABR" />
+<area id="MOL" shape="poly" coords="268,264,268,264,268,272,275,270,282,272,295,272,298,264,303,252,298,250,293,248,292,252,288,255,287,259,278,259,272,260,271,262" alt="Molise" href="indexcd19.html?reg=MOL" />
+<area id="CAM" shape="poly" coords="267,277,262,284,266,290,272,300,280,301,284,306,286,308,294,306,300,305,305,311,306,325,316,335,320,338,322,334,327,334,332,328,324,319,315,300,319,296,320,292,314,290,304,282,304,276,299,276,293,276,289,279,283,278,279,276,272,275" alt="Campania" href="index91c9.html?reg=CAM" />
+<area id="PUG" shape="poly" coords="306,253,301,270,308,274,309,280,317,286,325,289,331,284,336,285,338,287,352,300,359,299,366,299,368,306,368,312,374,305,381,309,392,318,400,315,407,316,409,324,411,330,422,336,426,329,424,316,411,305,395,299,384,295,380,288,370,286,347,278,335,268,331,261,336,256,338,253,309,253" alt="Puglia" href="index7d73.php?reg=PUG" />
+<area id="BAS" shape="poly" coords="324,291,324,292,324,298,320,301,325,314,334,321,336,328,332,334,330,338,335,336,341,334,346,336,352,336,355,330,362,322,364,319,363,310,363,302,358,303,354,306,348,303,336,290,333,289,329,291,324,293" alt="Basilicata" href="index5e29.php?reg=BAS" />
+<area id="CAL" shape="poly" coords="334,339,335,352,340,356,345,367,354,380,356,388,354,392,344,398,341,408,338,417,338,424,343,428,350,424,357,419,359,413,363,412,364,392,368,385,377,380,384,379,385,374,382,370,382,360,369,354,363,354,359,344,361,338,361,327,358,335,356,339" alt="Calabria" href="indexc924.html?reg=CAL" />
+<area id="SIC" shape="poly" coords="330,414,330,420,326,425,321,441,316,453,316,455,321,462,323,468,324,473,320,475,320,482,320,486,302,486,289,470,280,469,267,464,259,463,254,457,244,450,235,449,229,450,223,438,225,430,233,430,242,430,244,427,258,426,263,432,277,433,295,432,296,427,305,427,312,423,321,422,328,416" alt="Sicilia" href="index7ac3.html?reg=SIC" />
+<area id="SAR" shape="poly" coords="67,312,69,326,76,329,79,335,81,346,81,366,79,380,75,392,80,395,84,398,93,398,101,394,102,388,111,388,117,390,118,374,122,360,120,346,121,337,124,324,120,312,116,302,108,298,100,299,93,308,85,313,76,314" alt="Sardegna" href="indexde56.html?reg=SAR" />
+</map>
+
+<br />
+I film al cinema nelle sale di: 
+<a href="index9a07.php?conf=1&amp;data=oggi&amp;citta=22543&amp;provincia=1&amp;titolo=-1" class="filmup">AGRIGENTO</a>, 
+<a href="indexf944.php?conf=1&amp;data=oggi&amp;citta=20703&amp;provincia=1&amp;titolo=-1" class="filmup">ALESSANDRIA</a>, 
+<a href="index0bc7.html?conf=1&amp;data=oggi&amp;citta=20320&amp;provincia=1&amp;titolo=-1" class="filmup">ANCONA</a>, 
+<a href="index5ccf.php?conf=1&amp;data=oggi&amp;citta=21914&amp;provincia=1&amp;titolo=-1" class="filmup">ANDRIA</a>, 
+<a href="index6a4f.html?conf=1&amp;data=oggi&amp;citta=23653&amp;provincia=1&amp;titolo=-1" class="filmup">AOSTA</a>, 
+<a href="index939c.html?conf=1&amp;data=oggi&amp;citta=23273&amp;provincia=1&amp;titolo=-1" class="filmup">AREZZO</a>, 
+<a href="index95f3.php?conf=1&amp;data=oggi&amp;citta=20374&amp;provincia=1&amp;titolo=-1" class="filmup">ASCOLI PICENO</a>,  
+<a href="index9f24.html?conf=1&amp;data=oggi&amp;citta=18536&amp;provincia=1&amp;titolo=-1" class="filmup">VITERBO</a><br />
+
+<br />
+
+
+
+</div>
+<div class="boxClose_fup3"></div>
+
+<style type="text/css"> <!-- #htmltagcloud{ font-family:verdana,arial,helvetica,sans-serif; word-spacing:normal; letter-spacing:normal; text-decoration:none; text-transform:none; text-align:justify; text-indent:0ex; padding:0,5em}#htmltagcloud a:link{text-decoration:none}#htmltagcloud a:visited{text-decoration:none}#htmltagcloud a:hover{text-decoration:underline;background-color:#f3f0ea}#htmltagcloud a:active{text-decoration:none;background-color:#f3f0ea}span.tagcloud0{font-size:1.0em;padding:0em;color:#9B5051;z-index:10;position:relative}span.tagcloud0 a{text-decoration:none; color:#A5383A}span.tagcloud1{font-size:1.2em;padding:0em;color:#A5383A;z-index:9;position:relative}span.tagcloud1 a{text-decoration:none;color:#A5383A}span.tagcloud2{font-size:1.3em;padding:0em;color:#BD2F31;z-index:8;position:relative}span.tagcloud2 a{text-decoration:none;color:#BD2F31}span.tagcloud3{font-size:1.4em;padding:0em;color:#CE181B;z-index:7;position:relative}span.tagcloud3 a{text-decoration:none;color:#CE181B}span.tagcloud4{font-size:1.5em;padding:0em;color:#E60E11;z-index:6;position:relative}span.tagcloud4 a{text-decoration:none;color:#E60E11}span.tagcloud5{font-size:1.6em;padding:0em;color:#D30F12;z-index:5;position:relative}span.tagcloud5 a{text-decoration:none;color:#D30F12}span.tagcloud6{font-size:1.7em;padding:0em;color:#C00205;z-index:4;position:relative}span.tagcloud6 a{text-decoration:none;color:#C00205}span.tagcloud7{font-size:1.8em;padding:0em;color:#B60B0D;z-index:3;position:relative}span.tagcloud7 a{text-decoration:none;color:#B60B0D}span.tagcloud8{font-size:1.9em;padding:0em;color:#A30E10;z-index:2;position:relative}span.tagcloud8 a{text-decoration:none;color:#A30E10}span.tagcloud9{font-size:2.0em;padding:0em;color:#92070A;z-index:1;position:relative}span.tagcloud9 a{text-decoration:none;color:#92070A}span.tagcloud10{font-size:2.1em;padding:0em;color:#92070A;z-index:0;position:relative}span.tagcloud10 a{text-decoration:none;color:#7B0305}span.freq{font-size:10pt !important;color:#bbb}#credit{text-align:center; font-size:0.7em; color:#333; margin-bottom:0.6em; font-family:'lucida grande',trebuchet,'trebuchet ms',verdana,arial,helvetica,sans-serif;}#credit a:link{color:#777; text-decoration:none;}#credit a:visited{color:#777; text-decoration:none;}#credit a:hover{text-decoration:none; color:white; background-color:#05f;}#credit a:active{text-decoration:underline;}// --> </style> <div class=boxTitolo_fup3>I FILM OGGI IN PROGRAMMAZIONE:</div><div class=boxContent_fup3><table border=0 cellspacing=0 cellpadding=0 class=layoutTableOLD><tr><td class=layoutTD100><div id="htmltagcloud">
+
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_robadamatti.htm">Roba da matti</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_johncarter.htm">John Carter</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_lesneigesdukilimandjaro.htm">Le nevi del kilimangiaro</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_theartist.htm">The Artist</a></span>&nbsp;|
+<span class="tagcloud1"><a href="http://filmup.leonardo.it/sc_romanzodiunastrage.htm">Romanzo di una strage</a></span>&nbsp;|
+<span class="tagcloud3"><a href="http://filmup.leonardo.it/sc_unaspianonbasta.htm">Una spia non basta</a></span>&nbsp;|
+<span class="tagcloud2"><a href="http://filmup.leonardo.it/sc_piratibrigantidastrapazzo.htm">Pirati! Briganti da strapazzo</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_theironlady.htm">The Iron lady</a></span>&nbsp;|
+<span class="tagcloud5"><a href="http://filmup.leonardo.it/sc_thebrothersgrimmsnowwhite.htm">Biancaneve</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_safehousenessunoealsicuro.htm">Safe House - Nessuno è al sicuro</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_maledimiele.htm">Maledimiele</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_monpirecauchemar.htm">Il mio migliore incubo</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_viaggionellisolamisteriosa.htm">Viaggio nell'isola misteriosa (NO 3D)</a></span>&nbsp;|
+<span class="tagcloud0"><a href="http://filmup.leonardo.it/sc_postiinpiediinparadiso.htm">Posti in piedi in paradiso</a></span>&nbsp;|
+da uno a 10
+
+
+</div></td></tr></table></div><div class=boxClose_fup3></div>
+
+
+
+
+</td>
+
+<td width="300" valign="top">
+
+
+
+
+
+<!-- CERCACINEMA / START -->
+
+
+<div class="box300Titolo_fup3">Cerca CINEMA</div><div class="box300Content_fup3">
+<FORM METHOD="GET" ACTION="http://filmup.leonardo.it/cerca-cinema/index.php" NAME="MainForm">
+<input type="hidden" name="conf" value="1">
+<input type="hidden" name="data" value="oggi">
+<table class=layoutTableOLD border="0" cellspacing="0" cellpadding="2">
+<tr>
+<td width="100"><div class="testoSmall">Città:</div></td>
+<td width="100" align="right"><select name="citta" size="1" style="background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; border: 1px; font-size: 11px; width: 100px; height: 20px; margin: 0px 0px 0px 0px;">
+		
+		
+		<option value="-1" selected>scegli la citta'</option>
+		<option value="22543" >AGRIGENTO</option>
+<option value="20703" >ALESSANDRIA</option>
+<option value="20320" >ANCONA</option>
+<option value="21914" >ANDRIA</option>
+<option value="23653" >AOSTA</option>
+<option value="23273" >AREZZO</option>
+<option value="20374" >ASCOLI PICENO</option>
+<option value="20895" >ASTI</option>
+<option value="17057" >AVELLINO</option>
+<option value="21915" >BARI</option>
+<option value="21916" >BARLETTA</option>
+<option value="23730" >BELLUNO</option>
+<option value="17176" >BENEVENTO</option>
+<option value="18797" >BERGAMO</option>
+<option value="21014" >BIELLA</option>
+<option value="17606" >BOLOGNA</option>
+<option value="22940" >BOLZANO</option>
+<option value="19045" >BRESCIA</option>
+<option value="21958" >BRINDISI</option>
+<option value="22175" >CAGLIARI</option>
+<option value="22589" >CALTANISSETTA</option>
+<option value="20570" >CAMPOBASSO</option>
+<option value="22178" >CARBONIA</option>
+<option value="23440" >CARRARA</option>
+<option value="17269" >CASERTA</option>
+<option value="22622" >CATANIA</option>
+<option value="16808" >CATANZARO</option>
+<option value="17665" >CESENA</option>
+<option value="16333" >CHIETI</option>
+<option value="19275" >COMO</option>
+<option value="16685" >COSENZA</option>
+<option value="19421" >CREMONA</option>
+<option value="16885" >CROTONE</option>
+<option value="21171" >CUNEO</option>
+<option value="22674" >ENNA</option>
+<option value="20386" >FERMO</option>
+<option value="17698" >FERRARA</option>
+<option value="23325" >FIRENZE</option>
+<option value="22001" >FOGGIA</option>
+<option value="17669" >FORLI'</option>
+<option value="18198" >FROSINONE</option>
+<option value="18562" >GENOVA</option>
+<option value="17948" >GORIZIA</option>
+<option value="23365" >GROSSETO</option>
+<option value="22201" >IGLESIAS</option>
+<option value="18635" >IMPERIA</option>
+<option value="20671" >ISERNIA</option>
+<option value="16253" >L'AQUILA</option>
+<option value="18686" >LA SPEZIA</option>
+<option value="22312" >LANUSEI</option>
+<option value="18262" >LATINA</option>
+<option value="22077" >LECCE</option>
+<option value="19542" >LECCO</option>
+<option value="23391" >LIVORNO</option>
+<option value="19621" >LODI</option>
+<option value="23419" >LUCCA</option>
+<option value="20463" >MACERATA</option>
+<option value="19869" >MANTOVA</option>
+<option value="23447" >MASSA</option>
+<option value="16523" >MATERA</option>
+<option value="22734" >MESSINA</option>
+<option value="19758" >MILANO</option>
+<option value="17739" >MODENA</option>
+<option value="19760" >MONZA</option>
+<option value="17401" >NAPOLI</option>
+<option value="21401" >NOVARA</option>
+<option value="22327" >NUORO</option>
+<option value="22505" >OLBIA</option>
+<option value="22414" >ORISTANO</option>
+<option value="23853" >PADOVA</option>
+<option value="22847" >PALERMO</option>
+<option value="17838" >PARMA</option>
+<option value="20019" >PAVIA</option>
+<option value="23597" >PERUGIA</option>
+<option value="20541" >PESARO</option>
+<option value="16444" >PESCARA</option>
+<option value="17795" >PIACENZA</option>
+<option value="23480" >PISA</option>
+<option value="23515" >PISTOIA</option>
+<option value="17998" >PORDENONE</option>
+<option value="16604" >POTENZA</option>
+<option value="23498" >PRATO</option>
+<option value="22884" >RAGUSA</option>
+<option value="17872" >RAVENNA</option>
+<option value="16965" >REGGIO CALABRIA</option>
+<option value="17908" >REGGIO EMILIA</option>
+<option value="18343" >RIETI</option>
+<option value="17935" >RIMINI</option>
+<option value="18453" >ROMA</option>
+<option value="23939" >ROVIGO</option>
+<option value="17559" >SALERNO</option>
+<option value="22232" >SANLURI</option>
+<option value="22523" >SASSARI</option>
+<option value="18759" >SAVONA</option>
+<option value="23554" >SIENA</option>
+<option value="22906" >SIRACUSA</option>
+<option value="20160" >SONDRIO</option>
+<option value="22165" >TARANTO</option>
+<option value="22531" >TEMPIO PAUSANIA</option>
+<option value="16504" >TERAMO</option>
+<option value="23650" >TERNI</option>
+<option value="21703" >TORINO</option>
+<option value="22369" >TORTOLI'</option>
+<option value="21954" >TRANI</option>
+<option value="22930" >TRAPANI</option>
+<option value="23250" >TRENTO</option>
+<option value="24035" >TREVISO</option>
+<option value="18023" >TRIESTE</option>
+<option value="18153" >UDINE</option>
+<option value="20564" >URBINO</option>
+<option value="20311" >VARESE</option>
+<option value="24086" >VENEZIA</option>
+<option value="21818" >VERBANIA</option>
+<option value="21906" >VERCELLI</option>
+<option value="24299" >VERONA</option>
+<option value="17046" >VIBO VALENTIA</option>
+<option value="24202" >VICENZA</option>
+<option value="22265" >VILLACIDRO</option>
+<option value="18536" >VITERBO</option>
+
+</select></td>
+<td align="center"><input type="image" align="middle" name="CERCACINEMA" value="CERCACINEMA" width="50" height="18" src="../fup/tmp/vai_bottone.gif"></td>
+</tr>
+</table>
+</FORM>
+
+<hr width="100%" size="1" noshade>
+
+I film al cinema nelle sale di: 
+<a href="index6597.php?conf=1&amp;data=oggi&amp;titolo=-1&amp;citta=18453&amp;provincia=1" class="filmup">Roma</a>, 
+<a href="index1a6f.html?conf=1&amp;data=oggi&amp;citta=19758&amp;provincia=1&amp;titolo=-1" class="filmup">Milano</a>, 
+<a href="indexc477.php?conf=1&amp;data=oggi&amp;citta=21703&amp;provincia=1&amp;titolo=-1" class="filmup">Torino</a>, 
+<a href="index5021.html?conf=1&amp;data=oggi&amp;citta=17401&amp;provincia=1&amp;titolo=-1" class="filmup">Napoli</a>, 
+<a href="index6963.html?conf=1&amp;data=oggi&amp;citta=22847&amp;provincia=1&amp;titolo=-1" class="filmup">Palermo</a>, 
+<a href="indexc655.html?conf=1&amp;data=oggi&amp;citta=21915&amp;provincia=1&amp;titolo=-1" class="filmup">Bari</a>, 
+<a href="indexb9ed.html?conf=1&amp;data=oggi&amp;citta=18562&amp;provincia=1&amp;titolo=-1" class="filmup">Genova</a>, 
+<a href="index4f84.html?conf=1&amp;data=oggi&amp;citta=23325&amp;provincia=1&amp;titolo=-1" class="filmup">Firenze</a>
+<a href="index4f8d.html?conf=1&amp;data=oggi&amp;citta=17606&amp;provincia=1&amp;titolo=-1" class="filmup">Bologna</a>, 
+<a href="index88a8.html?conf=1&amp;data=oggi&amp;citta=22175&amp;provincia=1&amp;titolo=-1" class="filmup">Cagliari</a>, 
+<a href="index.html" class="filmup">tutte le altre città...</a><br>
+
+</div><div class="box300Close_fup3"></div><!-- CERCACINEMA / END -->
+
+
+
+<!-- BOX OFFICE / START -->
+<div class="box300Titolo_fup3">I più votati</div><div class="box300Content_fup3">
+<table class=layoutTableOLD border="0" cellspacing="0" cellpadding="2">
+<tr align="left" class="testoSmall">
+<td width="20%" valign="top" align="center"><a class="filmup" href="http://filmup.leonardo.it/sc_battleship.htm" target="_blank"><img src="../locand/battleship_small.jpg" width="70" height="100" border="0" alt=""></a><br>
+<a class="filmup" href="http://filmup.leonardo.it/sc_battleship.htm" target="_blank">Battleship</a><br>
+€ 2.137.444<br></td>
+<td width="20%" valign="top" align="center"><a class="filmup" href="http://filmup.leonardo.it/sc_titanic.htm" target="_blank"><img src="../locand/titanic_small.jpg" width="70" height="100" border="0" alt=""></a><br>
+<a class="filmup" href="http://filmup.leonardo.it/sc_titanic.htm" target="_blank">Titanic in 3D</a><br>
+€ 2.035.542<br></td>
+<td width="20%" valign="top" align="center"><a class="filmup" href="http://filmup.leonardo.it/sc_thebrothersgrimmsnowwhite.htm" target="_blank"><img src="../locand/thebrothersgrimmsnowwhite_small.jpg" width="70" height="100" border="0" alt=""></a><br>
+<a class="filmup" href="http://filmup.leonardo.it/sc_thebrothersgrimmsnowwhite.htm" target="_blank">Biancaneve</a><br>
+€ 1.150.696<br></td>
+</tr>
+</table>
+
+<div align="right"><a href="http://filmup.leonardo.it/boxoffice/" class="filmup">&gt; consulta tutta la classifica</a></div>
+</div><div class="box300Close_fup3"></div><!-- BOX OFFICE / END -->
+
+
+
+
+</td>
+</TR></TABLE>
+
+
+
+<br />
+<div align="center" style="background-color: #e7e7e7; width: 996px; margin-right:auto; margin-left:auto;">
+<br><br />
+
+<table width="980" align="center" cellspacing="0" cellpadding="0" border="0">
+<tr valign="top" align="left">
+	<td width="120" height="50" align="left"><img src="img/logo-footer_filmup_com.png" width="105" height="50" alt="" border="0" /></td>
+	<td width="10"><img src="../img/null.gif" alt="" width="10" height="1" border="0"></td>
+	<td width="616">© 1999-2011 <a href="http://filmup.leonardo.it/" class="menu"><font class="stilemenu">Film</font><strong>UP</strong>.com S.r.l.</a> Tutti i diritti riservati<BR>
+	<a href="http://filmup.leonardo.it/" class="menu"><font class="stilemenu">Film</font><strong>UP</strong>.com S.r.l.</a> non è responsabile ad alcun titolo dei contenuti dei siti linkati, pubblicati o recensiti.<br>
+Testata giornalistica registrata al Tribunale di Cagliari n.30 del 12/09/2001.</td>
+	<td width="60"><img src="../img/null.gif" alt="" width="10" height="1" border="0"></td>
+	<td width="150"><A class="menu" href="http://filmup.leonardo.it/contatti/index.php"><font class="stilemenu">C</font>ontatti</A><br>
+	<A class="menu" href="http://www.leonardoadv.it/" target=_blank><font class="stilemenu">P</font>ubblicità su FilmUP.com</A> </td>
+</tr>
+</table>
+
+<br />
+</div>
+
+
+
+
+</BODY>
+</HTML>

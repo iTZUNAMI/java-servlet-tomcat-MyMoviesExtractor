@@ -1,0 +1,309 @@
+/* ####### FILMUP CSS - START */
+
+#container {
+	width:996px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	BACKGROUND: #ffffff;
+}
+
+#background-adv {
+/*	position: fixed;	*/
+	top: 0px;
+	left: 0px;
+	height: 75%;
+	width: 100%;
+/*	margin-top: 42px;	*/
+
+}
+#background-adv a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+.boxTitolo_fup3 {
+	background-image: url(title670.png);
+	height: 22px;
+	width: 655px;
+	padding-left: 15px;
+	color: White;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top:12px;
+	padding-top: 3px;
+	background-repeat: no-repeat;
+}
+
+.boxContent_fup3 {
+	height: auto;
+	width: 640px;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-top: -3px;
+	background-image: url(title670_bg.png);
+	background-repeat: repeat-y;
+	padding: 5px 15px 5px 15px;
+}
+
+.boxClose_fup3 {
+	width: 670px;
+	margin-top: -4px;
+	background-image: url(title670_dw.png);
+	background-repeat: no-repeat;
+	height: 9px;
+}
+
+
+
+
+.boxTitoloTMPFORUM_fup3 {
+	background-image: url(title980TMP.html);
+	height: 10px;
+	width: 965px;
+	padding-left: 15px;
+	color: White;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-repeat: no-repeat;
+}
+.boxContentFORUM_fup3 {
+	height: auto;
+	width: 950px;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-top: -3px;
+	background-image: url(title980_bg.html);
+	background-repeat: repeat-y;
+	padding: 5px 15px 5px 15px;
+}
+.boxCloseFORUM_fup3 {
+	width: 980px;
+	margin-top: -4px;
+	background-image: url(title980_dw.png);
+	background-repeat: no-repeat;
+	height: 9px;
+}
+
+
+
+
+.box300Titolo_fup3 {
+	background-image: url(title300.png);
+	height: 22px;
+	width: 270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: White;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top:12px;
+	padding-top: 3px;
+	background-repeat: no-repeat;
+}
+
+.box300Content_fup3 {
+	height: auto;
+	width: 280px;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-top: -3px;
+	background-image: url(title300_bg.png);
+	background-repeat: repeat-y;
+	padding: 5px 10px 5px 10px;
+}
+
+.box300Close_fup3 {
+	width: 300px;
+	margin-top: -4px;
+	background-image: url(title300_dw.png);
+	background-repeat: no-repeat;
+	height: 9px;
+}
+
+
+
+.boxTitoloTMP_fup3 {
+	background-image: url(title670TMP.png);
+	height: 10px;
+	width: 655px;
+	padding-left: 15px;
+	color: White;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+.boxTitoloGOOGLE_fup3 {
+	background-image: url(title670TMP.png);
+	height: 8px;
+	width: 655px;
+	padding-left: 15px;
+	color: White;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 12px;
+	padding-top: 3px;
+	background-repeat: no-repeat;
+}
+.boxTitoloGOOGLE_TOP_fup3 {
+	background-image: url(title670TMP.png);
+	height: 8px;
+	width: 655px;
+	padding-left: 15px;
+	color: White;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-repeat: no-repeat;
+}
+.boxCloseGOOGLE_TOP_fup3 {
+	width: 670px;
+	margin-top: -4px;
+	padding-bottom: 11px;
+	background-image: url(title670_dw.png);
+	background-repeat: no-repeat;
+	height: 9px;
+}
+.boxContentGOOGLE_fup3 {
+	height: auto;
+	width: 650px;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-top: -3px;
+	background-image: url(title670_bg.png);
+	background-repeat: repeat-y;
+	padding: 5px 10px 5px 10px;
+}
+.box300TitoloGOOGLE_fup3 {
+	background-image: url(title300TMP.png);
+	height: 8px;
+	width: 270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: White;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 12px;
+	padding-top: 3px;
+	background-repeat: no-repeat;
+}
+
+.box300ContentGOOGLE_fup3 {
+	height: auto;
+	width: 280px;
+	font-size: 12px;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-top: -3px;
+	background-image: url(title300_bg.png);
+	background-repeat: repeat-y;
+	padding: 5px 10px 5px 10px;
+	background-position: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news_fup3 {
+	font-size: 13px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+A.news_fup3:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.news_fup3:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.news_fup3:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.news_fup3:hover {
+	BACKGROUND: none; TEXT-DECORATION: underline
+}
+A.news_fup3 IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+
+
+
+/*Example CSS for the two demo scrollers*/
+
+#pscroller2{
+width: 650px;
+height: 12px;
+border: 0px solid black;
+padding: 3px;
+}
+
+#pscroller2 a{
+text-decoration: none;
+}
+
+.someclass{ //class to apply to your scroller(s) if desired
+}
+
+
+
+
+
+/*Example CSS for demo ticker*/
+
+#ajaxticker1{
+width: 650px;
+height: 12px;
+/*border: 0px ridge black;*/
+padding: 3px;
+background-color: #FEEEB8;
+}
+
+#ajaxticker1 div{ /*IE6 bug fix when text is bold and fade effect (alpha filter) is enabled. Style inner DIV with same color as outer DIV*/
+background-color: #FEEEB8;
+}
+
+.someclass{ //class to apply to your scroller(s) if desired
+}
+
+

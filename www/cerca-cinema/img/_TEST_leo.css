@@ -1,0 +1,23 @@
+html,body 					{ margin:0;padding:0;} /*{ margin:0;padding:0;background-position:0 42px;}*/
+#Leonardo_Navigation                            { font-family: Verdana!important; line-height: normal!important; background-repeat:repeat-x; height:40px; text-align:center }
+#Leonardo_Navigation-Wrapper                    { width: 980px; margin:0 auto;  }
+#Leonardo_Navigation-Logo1                      { display:block; float:left; width:124px; height:40px;  }
+#Leonardo_Navigation-Logo2                      { display:block; float:right; width:72px; height:40px; }
+#Leonardo_Navigation-Logo1 h1,
+#Leonardo_Navigation-Logo2 h1                   { display:none }
+#Leonardo_Navigation-Wrapper ul                 { font-family: Verdana!important; margin:0 0px 0 0!important;padding-top:13px;font-size:8px!important; float:right; white-space: nowrap;}
+#Leonardo_Navigation-Wrapper ul li              { margin:0; list-style-type:none; display:inline; font-size:8px!important; padding: 1px 4px 1px 8px; white-space: nowrap; }
+#Leonardo_Navigation-Wrapper ul li a            { font-family: Verdana!important; text-decoration:none; font-size:11px!important; font-weight: normal; white-space: nowrap; padding: 0 0 1px 0; line-height: 17px }
+#Leonardo_Navigation-Wrapper ul li a:hover      { background-color:transparent!important; text-decoration:underline;  }
+
+
+/* Colore ----------------*/
+
+#Leonardo_Navigation                            { background-image:url(BKG.gif); background-color: #e7e7e7 }
+#Leonardo_Navigation-Logo1                      { background-image:url(Leonardo_LOGONEW_Grigio.gif) }
+#Leonardo_Navigation-Logo2                      { background-image:url(logo-leo_filmup_com.png) }
+#Leonardo_Navigation-Wrapper ul li              { color: #000000;  }
+#Leonardo_Navigation-Wrapper ul li.separa       { background:transparent url(bg-separa.png) no-repeat scroll left center; white-space: nowrap;}
+/*#Leonardo_Navigation-Wrapper ul li a            { color: #000000; background-image:url(/img3/menu-link.gif); background-repeat:repeat-x; background-position: bottom; }*/
+/*#Leonardo_Navigation-Wrapper ul li a:hover      { color: #000000; background-image:url(/img3/menu-link-h.gif); }*/
+#Leonardo_Navigation-Wrapper div                { color:#000000!important }
